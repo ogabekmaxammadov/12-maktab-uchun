@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mening maktabim</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/qoshimcha.css">
+    </head>
+    <body>
+        <section class="sub-header">
+             <nav>
+                <a href=""><i class="fa-solid fa-graduation-cap fa-qoshimcha"></i></a><h1 class="qoshimcha-logotip">12-MAKTAB</h1>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">ASOSIY</a></li>
+                        <li><a href="./course.html">COURSE</a></li>
+                        <li><a href="about.html">HAQIDA</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                        <li><a href="./contact.html">BOG'LANISH</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+             <h1>BIZNING 2024:2025 O'QUV YILI UCHUN REJALARIMIZ</h1>
+        </section>
+
+        <!---------- Blog page content--------->
+        <section class="blog-content">
+            <div class="blog-left">
+                <img src="rasmlar/11-sinf.jpg">
+                <h2>BIZNING 2024:2025 O'QUV YILI UCHUN REJALARIMIZ </h2>
+                <p>Shu yil maktabimiz orqa tarafidan yangi maktab binosi qurilishi rejalashtirilmoqda. Bu maktab 2000<sup>2</sup>metr kenglikda bo'lishi kuilmoqda. Zamon talababiga javob bera oladigan maktab boladi albatda</p>
+                <br>
+                <p>Shu yilgi 11-sinf o'quvchilarimizdan umid katta. Shu paytgacha berib kelinayotgan bilimlarga tayanib ayta olamizki o'quvchilarimizning kamida 90 foizi aniq OTM larga o'qishga kirishadi.</p>
+                <br>
+                <p>Lorem IpsuLorem Ipsum is simply dummy text of the printing and typesetting industry.m has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it, when an unknown printer took a galley of type and scrambled it.</p>
+                <br>
+                <p>Lorem IpsuLorem Ipsum is simply dummy text of the printing and typesetting industry.m has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it, when an unknown printer took a galley of type and scrambled it.
+                </p>
+                
+                <div class="coment-box">
+                    <h3>MAKTAB HAQIDA O'Z FIKRLARINGIZ, REJALARINGIZNI QOLDIRISHINGIZ MUMKIN</h3>
+                    <form class="coment-form">
+                        <input type="text" placeholder="Ismingizni Kiriting">
+                        <input type="email" placeholder="Email Manzilingizni kiriting">
+                        <textarea rows="5" placeholder="Fikringiz"></textarea>
+                        <button type="submit" class="hero-btn red-btn">FIKR BILDIRISH</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>YANGI MAKTAB</h3>
+                <div>
+                    <span>Maktab</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>Sinf Xonalari</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Kutib Xonalari</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>KOmpyuter Xonasi</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>oshxona</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>Lobaboratoriya Xonasi</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </section>
+        
+
+        <!------- Footer section-------->
+        <section class="footer">
+            <h4>BOG'LANISH</h4>
+            <p>Bizni boshqa ijtimoiy tarmoqlarda ham kuzating.</p>
+            <div class="icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <p>Made width <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </section>
+
+        <!------- Java script menyu yashirish uchun ------->
+        <script>
+            var navlinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200";
+            }
+        </script>
+    </body>
+</html>
